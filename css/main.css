@@ -1,0 +1,599 @@
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-color: yellow;
+    margin: auto;
+    margin-top: 70px;
+    cursor: url(../img/pushpush-smol.png), default;
+}
+
+h2 {
+    font-size: 90px;
+    font-weight: 200;
+    margin-right: 50px;
+    margin: 0px;
+}
+
+.middle-topper h2, #date {
+    margin-bottom: -45px;
+}
+
+h2::first-letter {
+    font-family: 'Pinyon Script', cursive;
+    font-size: 130px;
+}
+
+#please::first-letter {
+    padding-right: 17px;
+}
+
+#hill::first-letter {
+    padding-right: 16px;
+}
+
+#sugar::first-letter {
+    padding-right: 10px;
+}
+
+#please, #join {
+    margin-right: 35px;
+}
+
+#sugar {
+    margin-right: 20px;
+}
+
+#hill {
+    margin-left: 20px;
+}
+
+.pleasejoinus, .sugarhill {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.middle-topper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+img {
+    width: 400px;
+    padding: 0px 140px;
+}
+
+.topper p {
+    font-size: 30px;
+    line-height: 1.4em;
+}
+
+.separator p {
+    font-size: 40px;
+    padding: 40px;
+    text-align: center;
+}
+
+h3 {
+    font-family: 'Pinyon Script', cursive;
+    font-size: 130px;
+    font-weight: 100;
+    margin: 0;
+    padding-bottom: 25px;
+}
+
+.rsvp p {
+    font-size: 18px;
+    font-style: italic;
+    margin-top: -40px;
+    margin-bottom: 60px;
+
+}
+
+label, legend {
+    font-size: 30px;
+}
+
+.formrow {
+    padding: 10px;
+}
+
+.radiorow {
+    padding: 20px;
+}
+
+.radiorow legend {
+    margin-bottom: 15px;
+}
+
+.radiorow label {
+    margin-right: -25px;
+}
+
+input[type=email], input[type=text] {
+    padding: 11px;
+    margin: 10px;
+    width: 280px;
+}
+
+input[type=radio] {
+    border: 0px;
+    height: 30px;
+    width: 60px;
+    margin: 0 15px 0 15px;
+}
+
+#name, #email {
+    display: block;
+    margin: auto;
+}
+
+#name {
+    margin-bottom: 30px;
+}
+
+#email {
+    margin-bottom: 20px;
+}
+
+
+button {
+    font-size: 25px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 10px 25px;
+    cursor: url(../img/pushpush-smol.png), default;
+}
+
+h4 {
+    font-size: 50px;
+    font-weight: 100;
+    max-width: 60%;
+    margin: auto;
+    line-height: 1.1em;
+}
+
+.faq p {
+    font-size: 25px;
+    font-style: italic;
+    padding-bottom: 2.8em;
+}
+
+#mobile-separator-short {
+    display: none; 
+}
+
+.mobile-separator {
+    display: none;
+}
+
+#feedback {
+    padding-top: 40px;
+    font-family: 'Pinyon Script', cursive;
+    font-size: 2.7em;
+}
+
+footer {
+    font-size: 20px;
+}
+
+
+/* in between tablet and desktop  */
+@media (max-width: 1244px) {
+
+    img {
+        width: 400px;
+        padding: 0px 40px;
+    }
+
+}
+
+/* tablet  */
+@media (max-width: 800px) {
+
+    img {
+        width: 300px;
+        padding: 50px 20px 40px 20px;
+    }
+
+    .talasafie, .noelpaul {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .pleasejoinus {
+        padding-bottom: 20px;
+    }
+
+    .middle-topper {
+        display: block;
+        padding: 20px;
+        padding-bottom: 50px;
+    }
+
+    h2 {
+        font-size: 75px;
+        padding-right: 3px;
+    }
+
+    h2::first-letter {
+        font-family: 'Pinyon Script', cursive;
+        font-size: 110px;
+    }
+
+    h3 {
+        font-size: 110px;
+    }
+
+    #mobile-separator-short {
+        display: block; 
+        font-size: 20px;
+    }
+
+    .separator p {
+        display: none;
+    }
+
+    .mobile-separator {
+        display: block;
+        font-size: 28px;
+        padding: 20px;
+    }
+
+    .topper p {
+        font-size: 28px;
+    }
+
+    label, legend {
+        font-size: 28px;
+    }
+
+    button {
+        font-size: 28px;
+    }
+
+    h4 {
+        font-weight: 100;
+        font-size: 42px;
+        max-width: 80%;
+        margin: auto;
+        padding-bottom: 20px;
+        line-height: 1.1em;
+    }
+
+    .faq p {
+        font-size: 23px;
+        padding-bottom: 3.8em;
+        max-width: 80%;
+        margin: auto;
+        font-weight: bold;
+    }
+
+
+}
+
+
+
+/* Mobile size  */
+@media (max-width: 780px) {
+
+    body {
+        margin: auto;
+        margin-top: 30px;
+    }
+
+    h2 {
+        font-size: 50px;
+    }
+
+    h2::first-letter {
+    font-family: 'Pinyon Script', cursive;
+    font-size: 75px;
+    }
+
+    #please::first-letter {
+        padding: 10px;
+    }
+
+    #please, #join {
+        margin-right: 20px;
+    }
+
+    #tala, #noel, #sugar {
+        margin-right: 10px;
+    }
+
+    #safie, #paul, #hill {
+        margin-left: 10px;
+    }
+
+
+    
+    #hill::first-letter {
+        padding: 9px;
+    }
+
+    #sugar::first-letter {
+        padding: 5px;
+    }
+
+    img {
+        width: 60%;
+        padding: 20px 20px 40px 20px;
+        margin: auto;
+    }
+
+    .middle-topper {
+        padding: 10px;
+    }
+
+    #date {
+        margin-bottom: 1px;
+    }
+
+
+    .middle-topper h2, #date {
+        margin-bottom: 0px;
+    }
+
+    .pleasejoinus {
+        padding-bottom: 20px;
+    }
+
+    .sugarhill {
+        margin-top: -20px;
+    }
+
+    .topper p {
+        font-size: 23px;
+    }
+
+    .separator p {
+        display: none;
+    }
+
+    .mobile-separator {
+        display: block;
+        font-size: 22px;
+    }
+
+    .topper {
+        padding-bottom: 20px;
+    }
+
+    h3 {
+        font-size: 75px;
+        padding-top: 35px;
+    }
+
+    .rsvp p {
+        font-size: 16px;
+        font-style: italic;
+        margin-top: -25px;
+        margin-bottom: 60px;
+    }
+
+    label, legend {
+        font-size: 23px;
+    }
+
+    button {
+        font-size: 23px;
+        border-radius: 0;
+        -webkit-appearance: none;
+        background-color: rgb(239, 239, 239);
+    }
+
+    h4 {
+        font-size: 32px;
+        font-weight: 100;
+        max-width: 80%;
+        margin: auto;
+        padding-bottom: 15px;
+    }
+
+    .radiorow {
+        padding: 20px;
+    }
+    
+    .radiorow legend {
+        margin-bottom: 15px;
+        margin: auto;
+    }
+        
+    
+    input[type=radio] {
+        border: 0px;
+        height: 30px;
+        width: 60px;
+        margin: 0 15px 0 15px;
+    }
+
+
+    .faq p {
+        font-size: 20px;
+        max-width: 85%;
+    }
+
+    input {
+        border-radius: 0;
+      }
+
+
+      #feedback {
+        padding-top: 40px;
+        font-family: 'Pinyon Script', cursive;
+        font-size: 2.2em;
+    }
+
+    
+}
+
+
+/* Mobile smallest size */
+@media (max-width: 490px) {
+
+    body {
+        margin: auto;
+        margin-top: 30px;
+    }
+
+    h2 {
+        font-size: 41px;
+        font-weight: 500;
+        letter-spacing: -1px;
+    }
+
+    h2::first-letter {
+    font-family: 'Pinyon Script', cursive;
+    font-size: 63px;
+    }
+
+    #please::first-letter {
+        padding: 8px;
+    }
+    
+    #hill::first-letter {
+        padding: 7px;
+    }
+
+    #sugar::first-letter {
+        padding: 3px;
+    }
+
+    img {
+        width: 80%;
+        padding: 20px 20px 30px 20px;
+        margin: auto;
+    }
+
+    .middle-topper {
+        padding: 10px;
+    }
+
+    #date {
+        margin-bottom: 1px;
+    }
+
+    .middle-topper h2, #date {
+        margin-bottom: 0px;
+    }
+
+    .pleasejoinus {
+        padding-bottom: 15px;
+    }
+
+    .sugarhill {
+        margin-top: -15px;
+    }
+
+    .topper p {
+        font-size: 22px;
+        font-weight: 500;
+        line-height: 1em;
+
+    }
+
+    .separator p {
+        display: none;
+    }
+
+    .mobile-separator {
+        display: block;
+        font-size: 22px;
+    }
+
+    #mobile-separator-short {
+        display: block;
+        font-size: 22px;
+    }
+  
+
+    .topper {
+        padding-bottom: 0px;
+    }
+
+    h3 {
+        font-size: 75px;
+        padding-top: 10px;
+    }
+
+    .rsvp p {
+        font-size: 14px;
+        font-style: italic;
+        margin-top: -25px;
+        margin-bottom: 60px;
+    }
+
+    label, legend {
+        font-size: 23px;
+    }
+
+    button {
+        font-size: 23px;
+        border-radius: 0;
+        -webkit-appearance: none;
+        background-color: rgb(239, 239, 239);
+    }
+
+    h4 {
+        font-size: 32px;
+        font-weight: 100;
+        max-width: 80%;
+        margin: auto;
+        padding-bottom: 15px;
+    }
+
+    .radiorow {
+        padding: 20px;
+    }
+    
+    .radiorow legend {
+        margin-bottom: 15px;
+        margin: auto;
+    }
+
+
+
+    .faq p {
+        font-size: 20px;
+        max-width: 85%;
+    }
+
+    .faq p:last-child {
+        padding-bottom: 35px;
+
+    }
+
+    input {
+        border-radius: 0;
+      }
+
+      input[type=radio] {
+        border: 0.12em solid black;
+        /* -webkit-appearance: none; */
+        appearance: none;
+        font: inherit;
+        /* color: white; */
+        /* width: 1.15em;
+        height: 1.15em;
+        /* background-color: white; */
+        border-radius: 50%;
+        margin: 0 30px 0 30px;
+      }
+
+
+      #feedback {
+        padding-top: 40px;
+        font-family: 'Pinyon Script', cursive;
+        font-size: 2.2em;
+      }
+
+    
+}
+
+
